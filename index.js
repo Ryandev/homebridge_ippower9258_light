@@ -5,10 +5,8 @@ var Service, Characteristic;
 module.exports = function(homebridge) {
     Service = homebridge.hap.Service;
     Characteristic = homebridge.hap.Characteristic;
-    
-    console.log('RUnning!!!\n\n')
 
-    homebridge.registerAccessory("homebridge-ippower9258", "ippower9258", IPPowerLight);
+    homebridge.registerAccessory("homebridge-ippower9258-light", "ippower9258-light", IPPowerLight);
 }
 
 function IPPowerLight(log, config) {

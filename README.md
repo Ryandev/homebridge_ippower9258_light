@@ -19,7 +19,7 @@ homebridge IPPower9258 support as light accessories
 
     "accessories": [
       {
-        "accessory": "ippower9258",
+        "accessory": "ippower9258-light",
         "name" : "bulby",
         "ipaddress": "192.168.0.11",
         "username": "admin",
