@@ -1,0 +1,29 @@
+{
+  "name": "homebridge-ippower9258-light",
+  "version": "1.0.0",
+  "description": "homebridge IPPower9258 support as light accessories",
+  "main": "index.js",
+  "keywords" : [
+    "homebridge-plugin",
+    "ippower9258"
+  ],
+  "engines" : {
+    "homebridge": "*"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ryandev/homebridge_ippower9258_light.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Ryandev/homebridge_ippower9258_light/issues"
+  },
+  "homepage": "https://github.com/Ryandev/homebridge_ippower9258_light#readme",
+  "dependencies": {
+    "ippower9258": "^1.0.0"
+  }
+}
